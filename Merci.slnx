@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Merci.vcxproj" />
+  <Project Path="Merci.vcxproj" Id="6b083cc0-ee2a-4534-aeb5-6bf9cc7000ba" />
 </Solution>
