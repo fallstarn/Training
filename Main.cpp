@@ -1,4 +1,3 @@
-// check git test
 #include "CaptureManager.h"
 #include <iostream>
 #include <filesystem>
@@ -13,6 +12,7 @@ namespace fs = std::filesystem;
  * @brief Utility function to generate a PascalCase timestamped filename with millisecond resolution.
  *        Made static to limit scope to Main.cpp and resolve VCR003 warnings.
  */
+
 static std::wstring GeneratePascalCaseFileName() {
     auto now = std::chrono::system_clock::now();
     auto timeType = std::chrono::system_clock::to_time_t(now);
