@@ -1,4 +1,3 @@
-// check git test
 #include "CaptureManager.h"
 #include <iostream>
 #include <filesystem>
